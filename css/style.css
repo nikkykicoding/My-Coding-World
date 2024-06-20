@@ -822,6 +822,7 @@ ol {
 -----------------------*/
 .callto {
   padding-top: 130px;
+  background-position: left; 
 }
 .callto.sp__callto {
   padding-top: 0;
@@ -1141,6 +1142,19 @@ ol {
 .services__item {
   margin-bottom: 45px;
 }
+
+.services__item__icon {
+  font-size: 2.5em; /* Increase the size as needed */
+  color: #f0f0f0; /* Use a lighter color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+   /* Optional: If you want a background color */
+  border-radius: 50%; /* Optional: If you want the icon to be in a circle */
+}
+
 .services__item:hover .services__item__icon:after {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
